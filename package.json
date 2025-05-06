@@ -32,5 +32,8 @@
 		"@tailwindcss/typography": "^0.5.15",
 		"animate.css": "^4.1.1",
 		"layerchart": "^0.60.0"
+	},
+	"engines": {
+		"node": "20.x"
 	}
 }
