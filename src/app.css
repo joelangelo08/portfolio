@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.titillium-web {
+	font-family: 'Titillium Web', sans-serif;
+	font-style: normal;
+}
+.titillium-web-bold {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
