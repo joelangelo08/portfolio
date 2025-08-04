@@ -1,5 +1,6 @@
 import containerQueries from '@tailwindcss/container-queries';
 import typography from '@tailwindcss/typography';
+import scrollbar from 'tailwind-scrollbar';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -19,5 +20,5 @@ export default {
 		}
 	},
 
-	plugins: [typography, containerQueries]
+	plugins: [typography, containerQueries, scrollbar({ nocompatible: true })]
 };
