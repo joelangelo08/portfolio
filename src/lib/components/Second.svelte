@@ -31,7 +31,7 @@
 </script>
 
 <h1 class="titillium-web-bold text-4xl sm:text-5xl lg:text-6xl text-center mt-8 mb-12 text-white">Skills</h1>
-    <div class="overflow-hidden grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
+    <div class="overflow-hidden p-7 grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
         {#each skills as skill, index (skill.title)}
             <div
                 class="h-full group hover:scale-[1.02] transform transition-all duration-300 ease-out"
@@ -43,7 +43,7 @@
                 {#if visible}
                     <div
                         transition:scale={{ duration: 400 }}
-                        class="flex flex-col gap-7 h-full py-6 px-6 bg-white/25 backdrop-blur-lg rounded-xl shadow-2xl border border-white/25 transition duration-300 group-hover:shadow-[0_10px_25px_rgba(255,255,255,0.25)]"
+                        class="flex flex-col gap-7 h-full py-6 px-6 bg-white/25 backdrop-blur-lg rounded-xl border border-white/25 transition duration-300 group-hover:shadow-[0_10px_25px_rgba(255,255,255,0.25)]"
                     >
                         <p class="titillium-web text-white text-2xl sm:text-3xl font-semibold tracking-wide text-center">
                             {skill.title}
