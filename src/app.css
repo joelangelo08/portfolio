@@ -2,9 +2,9 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* html {
+html {
   overflow: hidden;
-} */
+}
 
 .titillium-web {
 	font-family: 'Titillium Web', sans-serif;
