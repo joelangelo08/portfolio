@@ -35,6 +35,9 @@
 		"embla-carousel-svelte": "^8.6.0",
 		"layerchart": "^0.60.0"
 	},
+	"optionalDependencies":  {  
+		"@rollup/rollup-linux-arm64-gnu": "^4.0.0"  
+	},
 	"engines": {
 		"node": "20.x"
 	}
