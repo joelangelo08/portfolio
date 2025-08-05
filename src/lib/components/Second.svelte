@@ -5,7 +5,7 @@
     
     let skills = [
         { title: 'Backend', tools: ['PHP', 'Laravel', 'Yii'] },
-        { title: 'Frontend', tools: ['Svelte', 'Javascript', 'jQuery', 'Tailwind CSS', 'Bootstrap2', 'CSS'] },
+        { title: 'Frontend', tools: ['Svelte', 'Javascript', 'jQuery', 'Tailwind CSS', 'Bootstrap', 'CSS'] },
         { title: 'Database', tools: ['My SQL', 'MS SQL'] },
         { title: 'Others', tools: ['Postman', 'Github'] }
     ];
